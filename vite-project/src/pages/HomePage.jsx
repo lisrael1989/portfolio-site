@@ -8,7 +8,7 @@ import { Contact } from '../cmps/Contact';
 export function HomePage() {
   return (
     <div className="App home" id="home">
-      <header className="App-header">
+      <section className="App-main-section">
         <div className="star-small"></div>
         <div className="star-mid"></div>
         <div className="star-large"></div>
@@ -29,7 +29,7 @@ export function HomePage() {
         >
           Learn Home
         </a>
-      </header>
+      </section>
       <AboutUs />
       <Projects />
       <Contact />

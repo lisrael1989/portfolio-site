@@ -5,8 +5,7 @@ export function Contact() {
   return (
 
     <div className="App contact" id="contact">
-      <header className="App-header">
-
+      <section className="App-main-section">
 
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
         <p>
@@ -20,7 +19,7 @@ export function Contact() {
         >
           github-page
         </a>
-      </header>
+      </section>
     </div>
   );
 }

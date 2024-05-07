@@ -4,7 +4,7 @@ import React from 'react';
 export function Projects() {
   return (
     <div className="App experience" id="experience">
-      <header className="App-header">
+      <section className="App-main-section">
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
         <p>
           My projects
@@ -17,7 +17,7 @@ export function Projects() {
         >
           My PROJECTS
         </a>
-      </header>
+      </section>
     </div>
   );
 }

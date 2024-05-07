@@ -23,7 +23,7 @@ import React from 'react';
 export function AboutUs() {
   return (
     <div className="App aboutUs" id="AboutUs">
-      <header className="App-header">
+      <section className="App-main-section">
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
         <p>
           about me section
@@ -36,7 +36,7 @@ export function AboutUs() {
         >
           test test test
         </a>
-      </header>
+      </section>
     </div>
   );
 }

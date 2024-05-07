@@ -4,7 +4,7 @@ import React from 'react';
 export function Experience() {
   return (
     <div className="App experience" id="experience">
-      <header className="App-header">
+      <section className="App-main-section">
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
         <p>
           Edit <code>some text</code> & some more text.
@@ -17,7 +17,7 @@ export function Experience() {
         >
           Learn Experience
         </a>
-      </header>
+      </section>
     </div>
   );
 }
