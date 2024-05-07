@@ -3,7 +3,7 @@ import React from 'react';
 import { AboutUs } from './AboutUs';
 import { Projects } from './Projects';
 import { Contact } from '../cmps/Contact';
-// import './Home.scss';
+
 
 export function HomePage() {
   return (
@@ -17,9 +17,10 @@ export function HomePage() {
         <div className="star-large"></div>
 
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>some text</code> & some more text.
-        </p>
+        <h2>
+          Israel Litvak <br /> Full Stack / Frontend Developer
+        </h2>
+
         <a
           className="App-link"
           href="https://reactjs.org"

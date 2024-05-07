@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { Contact } from "../cmps/Contact.jsx";
 import { AboutUs } from "../pages/AboutUs.jsx";
 import { Experience } from "../cmps/Experience.jsx";
-import { Projects } from "../pages/Projects.jsx";
 import { HomePage } from "../pages/HomePage.jsx";
 
 export function AppHeader() {
@@ -20,7 +19,6 @@ export function AppHeader() {
 
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener when component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -45,28 +43,23 @@ export function AppHeader() {
             </div>
             <ul className="routernav">
               <li className="routernav-item">
-                <a href="#HomePages">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li className="routernav-item">
                 <a href="#AboutUs">About</a>
               </li>
               <li className="routernav-item">
-                <a href="#Experience">Experience</a>
+                <a href="#experience">Projects</a>
               </li>
               <li className="routernav-item">
                 <a href="#contact">Contact</a>
               </li>
-              <li className="routernav-item">
-                <a href="#projects">Projects</a>
-              </li>
+
             </ul>
           </div>
         </div>
-        <HomePage />
-        <AboutUs />
-        <Experience />
-        <Contact />
-        <Projects />
+
+
       </div>
     </div>
   );

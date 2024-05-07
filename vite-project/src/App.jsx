@@ -5,7 +5,6 @@ import './styles/main.scss'
 
 import { AppHeader } from './cmps/AppHeader.jsx'
 import { HomePage } from './pages/HomePage.jsx'
-import { AboutUs } from './pages/AboutUs.jsx'
 
 export function App() {
 
@@ -18,7 +17,6 @@ export function App() {
         <main className='main-layout'>
           <Routes>
             <Route element={<HomePage />} path="/" />
-            <Route element={<AboutUs />} path="/about" />
           </Routes>
 
 

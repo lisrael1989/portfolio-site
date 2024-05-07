@@ -10,7 +10,7 @@ export function Contact() {
 
         <img src="https://sanaullah.netlify.app/navlogov2.svg" className="App-logo" alt="logo" />
         <p>
-          about me section
+          Contact Section
         </p>
         <a
           className="App-link"
@@ -18,7 +18,7 @@ export function Contact() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          test test test
+          github-page
         </a>
       </header>
     </div>

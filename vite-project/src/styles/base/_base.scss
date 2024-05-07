@@ -85,7 +85,7 @@ body {
 .App.home .App-header {
   min-height: 100vh;
 }
-.App.about .App-header {
+.App.aboutUs .App-header {
   background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
 .App.experience .App-header {
@@ -102,7 +102,7 @@ body {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -129,9 +129,11 @@ body {
 
 .App-link {
   color: #61dafb;
-  font-size: 3em;
+  font-size: 1.5em;
 }
-
+h2 {
+  margin-top: 20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -176,7 +178,6 @@ body {
 }
 .container-logo a img {
   display: block;
-  /* animation: App-logo-spin infinite 20s linear; */
   max-width: 60px;
   margin: 0 auto;
   transition: all 0.3s ease;
