@@ -154,7 +154,13 @@ h2 {
 }
 .routernav-container.stickit {
   height: 70px;
-  background-color: #a4161a;
+  // background-color: #a4161a;
+  // background: linear-gradient(to right, #00b4db, #0083b0);
+  // background: linear-gradient(to right, #56ab2f, #a8e063);
+  // background: linear-gradient(to right, #eb5757, #211f1f);
+  background: linear-gradient(to right, #0f2027, #62b8d4, #2c5364);
+  // background: linear-gradient(to right, #fc4a1a, #f7b733);
+
   box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.3);
 }
 
@@ -162,7 +168,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  // height: 100%;
+  padding-top: 5px;
 }
 
 .container-logo {

@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import { Contact } from "../cmps/Contact.jsx";
-import { AboutUs } from "../pages/AboutUs.jsx";
-import { Experience } from "../cmps/Experience.jsx";
-import { HomePage } from "../pages/HomePage.jsx";
+
 
 export function AppHeader() {
-  const [stickit, setStickit] = useState(false);
+  const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 4) {
-        setStickit(true);
+        setSticky(true);
       } else {
-        setStickit(false);
+        setSticky(false);
       }
     };
 
@@ -25,7 +21,7 @@ export function AppHeader() {
   }, []);
 
   return (
-    <div className={`App ${stickit ? "sticky" : ""}`}>
+    <div className={`routernav-container ${sticky ? "stickit" : ""}`}>
       <div className="App-inner">
         <div className="routernav-container">
           <div className="routernav-inner">
@@ -43,7 +39,7 @@ export function AppHeader() {
             </div>
             <ul className="routernav">
               <li className="routernav-item">
-                <a href="#Home">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className="routernav-item">
                 <a href="#AboutUs">About</a>
