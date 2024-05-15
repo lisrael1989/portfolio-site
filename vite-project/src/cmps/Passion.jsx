@@ -1,7 +1,7 @@
-// Experience.js
+
 import React from 'react';
 
-export function Experience() {
+export function MyServices() {
   return (
     <div className="App experience" id="experience">
       <section className="App-main-section">
@@ -15,7 +15,7 @@ export function Experience() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Experience
+          Learn Passion
         </a>
       </section>
     </div>
