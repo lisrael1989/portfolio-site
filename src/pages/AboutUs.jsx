@@ -26,7 +26,7 @@ export function AboutUs() {
   return (
     <div className="App aboutUs" id="AboutUs">
       <section className="App-main-section AboutUs  ">
-        <div className="max-width">
+        <div className="about-section">
           <h2 className="title-about-me">About Me</h2>
           <h5 className='sub-title-about-me'>— Who I Am ? —</h5>
 

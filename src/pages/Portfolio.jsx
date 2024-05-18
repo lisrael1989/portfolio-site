@@ -46,9 +46,9 @@ export function Portfolio() {
       link: "https://lisrael1989.github.io/Apssus_Sprint_3/#/"
     },
     {
-      img: "https://source.unsplash.com/720x600/?portfolio",
+      img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1716034441/ev7kexyjftiyn2ae5oo9.png",
       title: "Portfolio",
-      description: " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: " My personal portfolio web site.",
       link: "https://example.com/portfolio"
     },
     {

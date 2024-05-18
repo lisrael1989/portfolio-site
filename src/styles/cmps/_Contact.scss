@@ -1,6 +1,8 @@
 .contact-main {
-  background: radial-gradient(ellipse at bottom, #d5dce4 0, #3957ed 100%);
-  max-height: 130vh;
+  // background: linear-gradient(135deg, #200b8b, rgb(4, 4, 4));
+  background: linear-gradient(to right, #0f2027, #62b8d4, #2c5364);
+
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +14,7 @@
   background-size: auto;
 
   & .title-contact {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 40px 0 20px;
   }
 
@@ -21,6 +23,8 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
   }
 
   .icon-content {
