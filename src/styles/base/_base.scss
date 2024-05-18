@@ -24,7 +24,7 @@ body {
 .App.aboutUs .App-main-section {
   background: linear-gradient(to right, #fc4a1a, #f7b733);
 }
-.App.projects .App-main-section {
+.App.Portfolio .App-main-section {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 .App.contact .App-main-section {
@@ -49,9 +49,8 @@ body {
 }
 
 .App-main-section {
-  /* background-color: #282c34; */
   background: radial-gradient(ellipse at bottom, #1b2735 0, #090a0f 100%);
-  min-height: 130vh;
+  max-height: 130vh;
   display: flex;
   flex-direction: column;
   align-items: center;

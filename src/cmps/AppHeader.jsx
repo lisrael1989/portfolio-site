@@ -45,7 +45,7 @@ export function AppHeader() {
                 <a href="#AboutUs">About</a>
               </li>
               <li className="routernav-item">
-                <a href="#projects">Projects</a>
+                <a href="#portfolio">portfolio</a>
               </li>
               <li className="routernav-item">
                 <a href="#contact">Contact</a>

@@ -1,0 +1,130 @@
+.contact-main {
+  background: radial-gradient(ellipse at bottom, #d5dce4 0, #3957ed 100%);
+  max-height: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
+  & .title-contact {
+    font-size: 2em;
+    margin: 40px 0 20px;
+  }
+
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .icon-content {
+    margin: 10px 10px;
+    position: relative;
+  }
+
+  .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+
+  .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -40px;
+  }
+
+  .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    color: white;
+  }
+
+  .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #f01e1e;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .icon-content a:hover .filled {
+    height: 100%;
+  }
+
+  .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    transition: fill 0.3s ease-in-out;
+  }
+
+  .icon-content a[data-social="linkedin"] .filled,
+  .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+  }
+
+  .icon-content a[data-social="whatsapp"] .filled,
+  .icon-content a[data-social="whatsapp"] ~ .tooltip {
+    background-color: #25d366;
+  }
+
+  .icon-content a[data-social="gmail"] .filled,
+  .icon-content a[data-social="gmail"] ~ .tooltip {
+    background-color: #ff5d5d;
+    color: white;
+  }
+
+  .icon-content a[data-social="github"] .filled,
+  .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+  }
+
+  /* Hover effect to change SVG color to white */
+  .icon-content a[data-social="gmail"]:hover svg {
+    fill: white;
+  }
+
+  .icon-content a[data-social="linkedin"]:hover svg {
+    fill: white;
+  }
+  .icon-content a[data-social="whatsapp"]:hover svg {
+    fill: white;
+  }
+
+  .icon-content a[data-social="github"]:hover svg {
+    fill: white;
+  }
+}

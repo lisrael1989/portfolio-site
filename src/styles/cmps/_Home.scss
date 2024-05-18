@@ -1,0 +1,26 @@
+.home {
+  .title-home {
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .my-name {
+    font-size: 3em;
+    margin: 0;
+  }
+  .text-3 {
+    font-size: 1.6em;
+    margin: 10px 0;
+    .typing {
+      color: #1e3551;
+      background: linear-gradient(135deg, #041d3d, #fff, crimson);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+  }
+}
+
+ul {
+  list-style: none;
+}
