@@ -1,14 +1,26 @@
 .aboutUs {
   top: 0;
+  min-height: 80vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 
   .title-about-me {
     font-size: 2em;
     margin: 0;
+    margin-top: 70px;
   }
 
   .sub-title-about-me {
-    margin: 10px 0 30px 0;
-    color: #ed3a3a;
+    margin: 10px 0 50px 0;
+    color: #ed3a3ad0;
   }
 
   .about-content {

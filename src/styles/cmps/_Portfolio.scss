@@ -3,60 +3,74 @@
 .portfolio {
   padding: 20px;
   text-align: center;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 30px auto;
 
-  .title {
-    font-size: 2em;
+  & .title-portfolio {
+    font-size: 56px;
     margin-bottom: 20px;
+  }
 
-    &::after {
-      content: "- What I did ? - ";
-      display: block;
-      font-size: 0.75em;
-      color: #ed3a3a;
-      margin-top: 5px;
-    }
+  .sub-title-about-me {
+    color: #ed3a3ad0;
+    font-size: 1.5em;
+    margin: 0;
   }
 
   .slick-slider {
     position: relative;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     cursor: pointer;
 
     .slick-prev,
     .slick-next {
-      background-color: black !important;
+      background-color: #333;
       border-radius: 50% !important;
-      width: 30px !important;
-      height: 30px !important;
+      width: 50px !important;
+      height: 50px !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
 
       & ::before {
-        color: white !important;
+        color: rgb(12, 12, 12) !important;
       }
     }
 
     .slick-prev {
       left: -40px !important;
+
+      &::before {
+        font-family: "slick";
+        font-size: 72px;
+        line-height: 1;
+        opacity: 1;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+      }
     }
 
     .slick-next {
       right: -40px !important;
+
+      &::before {
+        font-family: "slick";
+        font-size: 72px;
+        line-height: 1;
+        opacity: 1;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+      }
     }
   }
-
   .card {
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: white;
-    margin: 20px auto;
     text-align: left;
-    max-width: 500px;
+    max-width: 550px;
 
     .box {
       img {

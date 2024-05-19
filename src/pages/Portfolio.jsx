@@ -69,17 +69,13 @@ export function Portfolio() {
       description: "A user-friendly application for seamless Bitcoin transfers, offering secure and efficient cryptocurrency transactions.",
       link: "https://example.com/misterbitcoin"
     },
-    {
-      img: "https://source.unsplash.com/720x600/?code,demo",
-      title: "Demo",
-      description: "#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      link: "https://example.com/demo"
-    }
+
   ];
 
   return (
     <section className="portfolio">
-      <h2 className="title">My Projects</h2>
+      <h2 className="title-portfolio">My Projects</h2>
+      <h5 className="sub-title-about-me">— What I did ? —</h5>
       <Slider {...settings}>
         {projects.map((project, index) => (
           <div className="card" key={index} onClick={() => window.open(project.link, "_blank")}>

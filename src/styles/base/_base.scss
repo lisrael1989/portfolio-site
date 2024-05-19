@@ -21,11 +21,9 @@ body {
 .App.home .App-main-section {
   min-height: 100vh;
 }
-.App.aboutUs .App-main-section {
+.App .aboutUs .App-main-section {
   // background: linear-gradient(to right, #fc4a1a, #f7b733);
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-
-  // background: rgba(44, 98, 105);
 }
 .App.Portfolio .App-main-section {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
