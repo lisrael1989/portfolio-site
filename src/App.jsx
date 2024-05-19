@@ -11,19 +11,18 @@ export function App() {
   return (
 
 
-    <Router>
-      <section>
-        <AppHeader />
-        <main className='main-layout'>
-          <Routes>
-            <Route element={<HomePage />} path="/" />
-          </Routes>
+    <section>
+      <AppHeader />
+      <main className='main-layout'>
+        <Routes>
+          <Route element={<HomePage />} path="/" />
+        </Routes>
 
 
-        </main>
+      </main>
 
-      </section>
-    </Router>
+    </section>
+
 
 
   )
