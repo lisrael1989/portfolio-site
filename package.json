@@ -1,5 +1,6 @@
 {
-  "name": "vite-project",
+  "name": "portfolio-site",
+  "homepage": "https://lisrael1989.github.io/portfolio-site/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
