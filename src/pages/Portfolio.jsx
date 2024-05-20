@@ -49,7 +49,7 @@ export function Portfolio() {
       img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1716034441/ev7kexyjftiyn2ae5oo9.png",
       title: "Portfolio",
       description: " My personal portfolio web site.",
-      link: "https://example.com/portfolio"
+      link: "https://lisrael1989.github.io/portfolio-site/"
     },
     {
       img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1715776266/1_cnzrbz.png",
@@ -67,7 +67,7 @@ export function Portfolio() {
       img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1715778767/ucj2oqfmkptbnetv2wvf.png",
       title: "Mister Bitcoin",
       description: "A user-friendly application for seamless Bitcoin transfers, offering secure and efficient cryptocurrency transactions.",
-      link: "https://example.com/misterbitcoin"
+      link: "https://lisrael1989.github.io/Mister-bitcoin/"
     },
 
   ];

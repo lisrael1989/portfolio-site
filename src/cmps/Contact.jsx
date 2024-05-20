@@ -4,6 +4,7 @@ export function Contact() {
   return (
     <div className="App contact" id="contact">
       <section className="contact-main" >
+
         <h2 className="title-contact">Contact me</h2>
         <ul className="example-2">
           <li className="icon-content">
