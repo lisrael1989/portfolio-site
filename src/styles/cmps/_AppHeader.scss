@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .container-logo {
@@ -46,6 +46,7 @@
 }
 
 .container-logo .logo-text {
+  opacity: 1;
   margin: 0;
 }
 
@@ -192,5 +193,15 @@
 
   .navigation-link {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .container-logo {
+    padding: 5px;
+
+    & .logo-text {
+      opacity: 0;
+    }
   }
 }
