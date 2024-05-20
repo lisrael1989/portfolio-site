@@ -39,7 +39,7 @@
     }
 
     .slick-prev {
-      left: -40px !important;
+      left: -10px !important;
 
       &::before {
         font-family: "slick";
@@ -52,7 +52,7 @@
     }
 
     .slick-next {
-      right: -40px !important;
+      right: -10px !important;
 
       &::before {
         font-family: "slick";
@@ -96,5 +96,11 @@
 @media (max-width: 768px) {
   .portfolio {
     max-width: 400px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    background-color: transparent !important;
+    // right: -20px !important;
   }
 }
