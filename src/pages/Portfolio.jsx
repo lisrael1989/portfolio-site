@@ -55,7 +55,7 @@ export function Portfolio() {
       img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1715776266/1_cnzrbz.png",
       title: "Meme Gen",
       description: "A fun and easy-to-use application that allows users to create and share custom memes effortlessly.",
-      link: "https://lisrael1989.github.io/Israel-Litvak-Ultimate-Meme-Generator/"
+      link: "https://lisrael1989.github.io/Ultimate-Meme-Generator/"
     },
     {
       img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1715776790/Beige_New_Product_Mockup_Now_Available_Facebook_Post_vgib70.png",
@@ -64,7 +64,7 @@ export function Portfolio() {
       link: "https://airstay-kybr.onrender.com/"
     },
     {
-      img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1715778767/ucj2oqfmkptbnetv2wvf.png",
+      img: "https://res.cloudinary.com/dpixrsdwh/image/upload/v1716371738/qao4rjbocafxwxdy69cc.png",
       title: "Mister Bitcoin",
       description: "A user-friendly application for seamless Bitcoin transfers, offering secure and efficient cryptocurrency transactions.",
       link: "https://lisrael1989.github.io/Mister-bitcoin/"
@@ -75,7 +75,6 @@ export function Portfolio() {
   return (
     <section className="portfolio">
       <h2 className="title-portfolio">My Projects</h2>
-      <h5 className="sub-title-about-me">— What I did ? —</h5>
       <Slider {...settings}>
         {projects.map((project, index) => (
           <div className="card" key={index} onClick={() => window.open(project.link, "_blank")}>

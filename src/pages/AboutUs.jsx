@@ -35,21 +35,25 @@ export function AboutUs() {
             <img className="israel-img" src="https://res.cloudinary.com/dpixrsdwh/image/upload/v1715088963/israel_e8xrgk.jpg" alt="Profile Image 626x626" />
           </div>
           <div className="right">
-            <div className="text">I'm israel and I'm a <span className="typing-2"></span></div>
-            <p>Seeking an entry-level opportunity with an esteemed organization.
-              <br /> where I can utilize my skills & enhance learning in the field of work.
-              Capable of mastering new technologies.</p>
-
+            <div className="text">I'm israel and I'm a </div>
+            <div className="text"> <span className="typing-2"></span></div>
+            <div>
+              <p>Seeking an entry-level opportunity with an esteemed organization.
+                <br /> where I can utilize my skills & enhance learning in the field of work.
+                Capable of mastering new technologies.</p>
+            </div>
             <div className="text">Why Work With Me</div>
-            <p>I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p>
+            {/* <p>I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p> */}
+            <p><p>As a web developer, I pride myself on being a great communicator who takes the time to fully understand the unique needs of each client. My passion for crafting efficient, user-friendly websites ensures that every project I work on meets and exceeds expectations. <br /><span className="work-p" >Let's build something amazing together!</span></p>
+            </p>
 
             <a href="https://drive.google.com/file/d/1hfs1s9xjIIILrTzCACn8Ro7ajdjsm8su/view?usp=sharing" target="blank">Download CV</a>
           </div>
         </div>
 
-      </section>
+      </section >
 
-    </div>
+    </div >
   );
 }
 

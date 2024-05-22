@@ -31,7 +31,7 @@ export function AppHeader() {
         <div className="routernav-container">
           <div className="routernav-inner">
             <div className="container-logo">
-              <a href="/">
+              <a href="#home">
                 <img
                   src="https://sanaullah.netlify.app/navlogov2.svg"
                   alt="About7codes Logo"

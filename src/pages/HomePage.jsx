@@ -16,7 +16,7 @@ export function HomePage() {
       strings: [
         'Fullstack Developer',
         'Passionate Coder',
-        '♥ {CSS}',
+        '{CSS} lover',
         'Problem Solver',
         'JavaScript Ninja'
       ],
