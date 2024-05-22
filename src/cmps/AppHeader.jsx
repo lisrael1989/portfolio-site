@@ -48,10 +48,18 @@ export function AppHeader() {
             </label>
             <nav className="navigation-nav">
               <ul className="navigation-list">
-                <li className="navigation-item"><a href="#home" className="navigation-link" onClick={handleNavItemClick}>Home</a></li>
-                <li className="navigation-item"><a href="#AboutUs" className="navigation-link" onClick={handleNavItemClick}>About</a></li>
-                <li className="navigation-item"><a href="#portfolio" className="navigation-link" onClick={handleNavItemClick}>Portfolio</a></li>
-                <li className="navigation-item"><a href="#contact" className="navigation-link" onClick={handleNavItemClick}>Contact</a></li>
+                <li className="navigation-item">
+                  <a href="#home " className="navigation-link" onClick={handleNavItemClick}>Home</a>
+                </li>
+                <li className="navigation-item">
+                  <a href="#AboutUs" className="navigation-link" onClick={handleNavItemClick}>About</a>
+                </li>
+                <li className="navigation-item">
+                  <a href="#portfolio" className="navigation-link" onClick={handleNavItemClick}>Portfolio</a>
+                </li>
+                <li className="navigation-item">
+                  <a href="#contact" className="navigation-link" onClick={handleNavItemClick}>Contact</a>
+                </li>
               </ul>
             </nav>
           </div>

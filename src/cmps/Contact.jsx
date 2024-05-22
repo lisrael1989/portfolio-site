@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Contact() {
   return (
-    <div className="App contact" id="contact">
+    <section className="App contact" id="contact">
       <section className="contact-main" >
 
         <h2 className="title-contact">Contact me</h2>
@@ -78,6 +78,6 @@ export function Contact() {
           </li>
         </ul>
       </section>
-    </div>
+    </section>
   );
 }

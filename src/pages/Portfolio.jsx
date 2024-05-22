@@ -73,19 +73,21 @@ export function Portfolio() {
   ];
 
   return (
-    <section className="portfolio">
-      <h2 className="title-portfolio">My Projects</h2>
-      <Slider {...settings}>
-        {projects.map((project, index) => (
-          <div className="card" key={index} onClick={() => window.open(project.link, "_blank")}>
-            <div className="box">
-              <img src={project.img} alt={project.title} />
-              <div className="text">{project.title}</div>
-              <p>{project.description}</p>
+    <section className="portfolio" id="portfolio">
+      <section className="portfolio" id="portfolio" >
+        <h2 className="title-portfolio">My Projects</h2>
+        <Slider {...settings}>
+          {projects.map((project, index) => (
+            <div className="card" key={index} onClick={() => window.open(project.link, "_blank")}>
+              <div className="box">
+                <img src={project.img} alt={project.title} />
+                <div className="text">{project.title}</div>
+                <p>{project.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </section >
     </section>
   );
 }

@@ -24,6 +24,7 @@ export function AboutUs() {
   }, []);
 
   return (
+
     <div className="App aboutUs" id="AboutUs">
       <section className=" AboutUs  ">
 
@@ -35,8 +36,7 @@ export function AboutUs() {
             <img className="israel-img" src="https://res.cloudinary.com/dpixrsdwh/image/upload/v1715088963/israel_e8xrgk.jpg" alt="Profile Image 626x626" />
           </div>
           <div className="right">
-            <div className="text">I'm israel and I'm a </div>
-            <div className="text"> <span className="typing-2"></span></div>
+            <div className="text">I'm israel and I'm a <span className="typing-2"></span></div>
             <div>
               <p>Seeking an entry-level opportunity with an esteemed organization.
                 <br /> where I can utilize my skills & enhance learning in the field of work.
@@ -54,6 +54,8 @@ export function AboutUs() {
       </section >
 
     </div >
+
+
   );
 }
 
