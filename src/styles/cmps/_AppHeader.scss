@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  // padding-top: 10px;
 }
 
 .container-logo {
@@ -197,10 +197,14 @@
   }
 }
 
+@media (max-width: 850px) {
+  .container-logo {
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 650px) {
   .container-logo {
-    padding: 5px;
-
     & .logo-text {
       opacity: 0;
     }
