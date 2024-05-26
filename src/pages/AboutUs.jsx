@@ -47,7 +47,7 @@ export function AboutUs() {
             <p><p>As a web developer, I pride myself on being a great communicator who takes the time to fully understand the unique needs of each client. My passion for crafting efficient, user-friendly websites ensures that every project I work on meets and exceeds expectations. <br /><span className="work-p" >Let's build something amazing together!</span></p>
             </p>
 
-            <a href="https://drive.google.com/file/d/1hfs1s9xjIIILrTzCACn8Ro7ajdjsm8su/view?usp=sharing" target="blank">Download CV</a>
+            <a href="https://drive.google.com/file/d/18BsHSG4tC7EHmUNUZCqUsPW2zwgNoXzL/view?usp=sharing" target="blank">Download CV</a>
           </div>
         </div>
 
